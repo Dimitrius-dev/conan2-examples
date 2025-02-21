@@ -1,0 +1,7 @@
+
+#include "Printer.h"
+#include <spdlog/spdlog.h>
+
+void Printer::print(int x){
+    spdlog::info("value: {}", x);
+}
