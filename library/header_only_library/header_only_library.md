@@ -103,3 +103,4 @@ ___
 1. ```conan install . -of=conan_install -pr=default --build=missing -c tools.build:skip_test=True```
 2. ```cmake -S . -B project_build -DCMAKE_TOOLCHAIN_FILE=../conan_install/build/Release/generators/conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" -BUILD_TESTING=OFF```
 3. ```cmake --build project_build```
+

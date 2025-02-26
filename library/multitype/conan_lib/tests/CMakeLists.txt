@@ -15,5 +15,3 @@ target_link_libraries(tests PUBLIC
         ho_part2
         gtest::gtest
 )
-
-#install(TARGETS tests)

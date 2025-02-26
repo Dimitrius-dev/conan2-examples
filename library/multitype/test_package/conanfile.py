@@ -25,9 +25,3 @@ class LibTest(ConanFile):
         if not cross_building(self):
             cmd = os.path.join(self.cpp.build.bindirs[0], "test_package")
             self.run(cmd, env="conanrun")
-
-            # cmd = os.path.join(self.cpp.build.bindirs[0], "test_package_http")
-            # self.run(cmd, env="conanrun")
-            #
-            # cmd = os.path.join(self.cpp.build.bindirs[0], "test_package_websocket")
-            # self.run(cmd, env="conanrun")
