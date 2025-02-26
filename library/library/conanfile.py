@@ -21,8 +21,6 @@ class LibraryRecipe(ConanFile):
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
 
-    # package_type = "library"
-
     # Sources are located in the same place as this recipe, copy them to the recipe
     def export_sources(self):
         copy(self, "*", os.path.join(self.recipe_folder, "conan_lib"), self.export_sources_folder, keep_path = True)

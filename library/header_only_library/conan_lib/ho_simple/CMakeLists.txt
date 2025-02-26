@@ -5,5 +5,4 @@ add_library(ho_simple INTERFACE)
 
 target_include_directories(ho_simple INTERFACE include)
 
-
-#install(TARGETS simple)
+install(TARGETS simple)

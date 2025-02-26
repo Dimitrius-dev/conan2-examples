@@ -17,7 +17,7 @@
 Создать профиль с названием **default** можно используя команду:  
 `conan profile detect --name default`.
 
-Для редактирования профиль с названием default можно найти по полученному пути командой:  
+Найти местоположение профиля с именем default для редактирования можно с помощью команды:  
 `conan profile path default`.  
 Добавлять новые профили можно с помощью создания файлов по этому же пути.
 
@@ -65,4 +65,4 @@ CXX=/usr/bin/g++-13
 `CXX` - путь к компилятору язык C++  
   
 
-Подробнее [https://docs.conan.io/2/reference/config_files/profiles.html#profiles](тут)
+Подробнее [тут](https://docs.conan.io/2/reference/config_files/profiles.html#profiles)

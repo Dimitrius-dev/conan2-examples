@@ -13,5 +13,3 @@ target_link_libraries(tests PUBLIC
         simple
         gtest::gtest
 )
-
-#install(TARGETS tests)
